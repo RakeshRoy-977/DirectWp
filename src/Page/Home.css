@@ -1,0 +1,41 @@
+
+.appBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 211, 102);
+    margin: 40px 0px;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 10px;
+    gap: 20px;
+}
+.react-tel-input{
+    width: auto !important;
+    
+}
+
+.react-tel-input .form-control{
+    padding: 25px;
+    border: 2px solid black;
+
+    
+}
+
+.connectBtn{
+    width: 150px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
